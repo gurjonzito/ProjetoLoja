@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #ffb1cf;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    background: rgba(22, 22, 22, 0.2);
+}
+.menu{
+    width: 100%;
+    background-color: #101010;
+    height:50px;
+    text-align: right;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.menu a{
+    color: ghostwhite;
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+.menu a:hover{
+    color: #ff0062;
+}
+.menu a:before{
+    background-color: #ff0062;
+}
+.menu .list-itens{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.menu .list-itens a{
+    text-decoration: none;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+.menu .list-itens a:before{
+    content:' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #ff0062;
+    transition: all 1.5s ease;
+}
+.menu .list-itens a:hover:before{
+    width: 100%;
+}
+#conteudo{
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 600px){
+
+}

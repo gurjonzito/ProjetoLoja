@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #101010;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    width:100%;
+    background-color: white;
+    border:solid 2px black;
+    border-radius:5px;
+    padding:10px;
+    color: black;
+    font-size:14px;
+}
+button{
+    background-color: transparent;  
+    color:white;
+    border-radius:4px;
+    padding:10px;
+    box-shadow: 2px 2px transparent;
+    border: 2px solid #CCC;
+    cursor:pointer;
+}
+button:hover{
+    background-color: mediumpurple; 
+}
+.TabelaLogin{
+    margin-top:10%;
+    border: solid 4px white;
+    box-shadow: 6px 6px transparent;
+    padding:50px;
+    width:45%;
+    background-image: linear-gradient(to right, #ff800f, #ff0062 , #550022);
+    border-radius:5px;
+}
