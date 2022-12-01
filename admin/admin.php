@@ -28,7 +28,9 @@
                         case 'SubCategorias' : $incluir = "subcategorias/index.php"; break;
                         case 'Produtos' : $incluir = "produtos/index.php"; break;
                         case 'Pedidos' : $incluir = "pedidos/index.php"; break;
+                        case 'AlterarCategoria' : $incluir = "categorias/alterar.php"; break;
                     }
+                    include($incluir);
                 }else{
                     echo '<h1>Escolha um item no Menu acima</h1>';
                 }
